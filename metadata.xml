@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Mara Mod</name>
+    <directory>mara mod</directory>
+    <id>0</id>
+    <description>Mod de mara:
+- Marita como personaje jugable. Empieza con no.2
+- Item activable: cacahuetillo (3 coins y transforma un corazón rojo en un rottenheart)
+- Item pasivo: Café (+dmg, +ms, +shotspeed, weagle tear effect)</description>
+    <version>1.0</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Active Items"/>
+</metadata>

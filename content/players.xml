@@ -1,0 +1,10 @@
+<players root="gfx/characters/costumes/" 
+         portraitroot="gfx/ui/boss/" 
+         nameimageroot="gfx/ui/boss/" 
+         bigportraitroot="gfx/ui/stage/">
+    <player name="Marita" skin="character_marita.png" hp="4" keys="1" bombs="1" coins="1" items="378"
+          nameimage="playername_marita.png" 
+          portrait="playerportrait_marita.png"  
+          bigportrait="playerportrait_marita.png" skinColor="0"
+		  birthright="Mecagao" />
+</players>
