@@ -1,9 +1,17 @@
 <ItemPools>
 	<Pool Name="treasure">
+		<!--Café-->
 		<Item Name="Café" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
-	</Pool> 
-	<Pool Name="treasure">
+		<!--Cacahuetillo-->
 		<Item Name="Cacahuetillo" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<!--Señor C-->
+		<Item Name="Señor C" Weight="1" DecreaseBy="1" RemoveON="0.1" />
+	</Pool>
+	<Pool Name="goldenChest">
+		<!--Voz de Roro-->
+		<Item Name="Voz de Roro" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<!--Tenedol-->
+		<Item Name="TENEDOL" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
 	</Pool>
 </ItemPools>
 	
