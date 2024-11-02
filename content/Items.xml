@@ -1,7 +1,12 @@
 <items gfxroot="gfx/items/" version="1">
-	<passive id="1" name="Café" gfx="cafe.png" description="¿Un qué? Un cafÉ" quality="1" cache="damage shotspeed speed tearflag" blackhearts="4" />
-	<active id="2" name="Cacahuetillo" gfx="cacahuetillo.png" description="Ricos cacahuetillos, ñam" quality="1" maxcharges="5" chargetype="normal" />
-	<trinket id="3" name="Voz de Roro" description="Más cara que espalda" gfx="peeposhy.png" />
-	<trinket id="4" name="TENEDOL" description="Detengan a la ladlona!!!" gfx="tenedol.png" />
-	<passive id="5" name="Señor C" description="Mi amor platónico uWu" gfx="mrc.png" quality="1"/>
+	<passive id="1" name="Café" gfx="cafe.png" description="¿Un qué? Un cafÉ" quality="1" cache="damage shotspeed speed tearflag" blackhearts="2"/>
+	<active id="2" name="Cacahuetillo" gfx="cacahuetillo.png" description="Ricos cacahuetillos, ñam" quality="1" maxcharges="5" chargetype="normal"/>
+	<trinket id="3" name="Voz de Roro" gfx="peeposhy.png" description="Más cara que espalda"/>
+	<trinket id="4" name="TENEDOL" gfx="tenedol.png" description="Detengan a la ladlona!!!"/>
+	<passive id="5" name="Señor C" gfx="mrc.png" description="Mi amor platónico uWu"  quality="1"/>
+	<passive id="6" name="Energética" gfx="bebida.png" description="Sabe a sobaco" quality="1" cache="shotspeed speed tearflag"/> 
+	<passive id="7" name="Pasta" gfx="pasta.png" description="Encharcada" quality="1" maxhearts="2" hearts="2" cache="tearflag"/>
+	<passive id="8" name="Medicamento" gfx="medicamento.png" descritpion="Contra mi naturaleza" quality="1" maxhearts="2" hearts="6" blackhearts="-2"/>
+	<passive id="9" name="Curriculum Vitae" gfx="cv.png" description="Cabe en un post-it" quality="1" cache="luck damage tearflag" soulhearts="2"/>
+	<passive id="10" name="Contrato" gfx="contrato.png" description="Ay que mieo" quality="1" blackhearts="2" coins="2"/>
 </items>

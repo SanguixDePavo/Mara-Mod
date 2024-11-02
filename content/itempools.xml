@@ -1,17 +1,26 @@
 <ItemPools>
 	<Pool Name="treasure">
 		<!--Café-->
-		<Item Name="Café" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="Café" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Cacahuetillo-->
-		<Item Name="Cacahuetillo" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="Cacahuetillo" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Señor C-->
-		<Item Name="Señor C" Weight="1" DecreaseBy="1" RemoveON="0.1" />
+		<Item Name="Señor C" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<!--Bebida-->
+		<Item Name="Energética" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<!--Pasta-->
+		<Item Name="Pasta" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<!--Medicamento-->
+		<Item Name="Medicamento" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<!--Currículum-->
+		<Item Name="Curriculum Vitae" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<!--Contrato-->
+		<Item Name="Contrato" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
 	</Pool>
 	<Pool Name="goldenChest">
 		<!--Voz de Roro-->
-		<Item Name="Voz de Roro" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="Voz de Roro" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Tenedol-->
-		<Item Name="TENEDOL" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="TENEDOL" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 	</Pool>
 </ItemPools>
-	
