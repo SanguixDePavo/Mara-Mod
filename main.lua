@@ -65,28 +65,28 @@ mod:AddCallback(ModCallbacks.MC_EVALUATE_CACHE, mod.onPickupCV)
 
 ---NOFUNCIONA---
 function mod:ConfussionTearEffectCV(player, TearFlags)
+	local player = Isaac.GetPlayer(0)
 	if player:HasCollectible(COLLECTIBLE_CV) then ---ATTEMPT TO CALL A NIL VALUE---
 		for _, entity in pairs(Isaac.GetRoomEntities()) do
 			local roll = math.random(100)
 			local MaxLuck = 6
 			if roll <= ((100) - 15) * player.Luck / MaxLuck + 15 then
-				player.TearFlags = player.TearFlags | TearFlags.TEAR_CONFUSION
+				player.TearFlags = player.TearFlags | player.TearFlags.TEAR_CONFUSION
 			end
 		end
 	end
 end
 
-mod:AddCallback(ModCallbacks.MC_POST_EFFECT_UPDATE, mod.ConfussionTearEffectCV)
+mod:AddCallback(ModCallbacks.MC_POST_TEAR_UPDATE, mod.ConfussionTearEffectCV)
 
----NOFUNCIONA---
+---FUNCIONA UNA VEZ POR SESION DE JUEGO---
 function mod:onPickupSenyorC()
 	local player = Isaac.GetPlayer(0)
-	local got_item = false
 	local nearby = Isaac.GetFreeNearPosition(player.Position, 10)
-	if player:HasCollectible(COLLECTIBLE_SENYORC) == true and got_item == false then
-	got_item = true
-	Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_TAROTCARD, 62, nearby, Vector(0,0), player) 
-	end
+	if player:HasCollectible(COLLECTIBLE_SENYORC) == true then
+		Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_TAROTCARD, 62, nearby, Vector(0,0), player)
+		mod:RemoveCallback (ModCallbacks.MC_POST_UPDATE, mod.onPickupSenyorC)
+		end
 end
 
 mod:AddCallback(ModCallbacks.MC_POST_UPDATE, mod.onPickupSenyorC, EntityType.ENTITY_PLAYER)
