@@ -21,22 +21,18 @@ end
 mod:AddCallback(ModCallbacks.MC_EVALUATE_CACHE, mod.onPickupCV)
 
 ---NOFUNCIONA---
-function mod:confussionTearEffectCV(player, cacheFlag)
-	
-	if player:HasCollectible(COLLECTIBLE_CV) then
-	
-		if cacheFlag == CacheFlag.CACHE_TEARFLAG then
-	
-			local result = math.random(100) <= (85 * player.Luck / 6) + 15
-			
-			if result then
-				player.TearFlags = player.TearFlags | TearFlags.TEAR_WIGGLE
-			end	
-		end
+function mod:confussionTearEffectCV(entityTear)
+	local player = Isaac.GetPlayer(0)
+
+	if player:HasCollectible(COLLECTIBLE_CV) and math.random(100) <= (85 * player.Luck / 6) + 15 then
+
+		entityTear:AddTearFlags(TearFlags.TEAR_CONFUSION)
+
+		entityTear:ChangeVariant(TearVariant.METALLIC)
+
 	end
 end
 
-mod:AddCallback(ModCallbacks.MC_EVALUATE_CACHE, mod.confussionTearEffectCV)
-
+mod:AddCallback(ModCallbacks.MC_POST_FIRE_TEAR, mod.confussionTearEffectCV)
 
 ---POR AÑADIR: SONIDO DE WAJAJA CUANDO SE PILLE EL ITEM---
