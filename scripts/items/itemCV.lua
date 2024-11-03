@@ -25,7 +25,7 @@ function mod:confussionTearEffectCV(player, cacheFlag)
 	
 	if player:HasCollectible(COLLECTIBLE_CV) then
 	
-		local result = (math.random(100) <= 85 * player.Luck / 6) + 15
+		local result = math.random(100) <= (85 * player.Luck / 6) + 15
 	
 		if result and cacheFlag == CacheFlag.CACHE_TEARFLAG then
 	
