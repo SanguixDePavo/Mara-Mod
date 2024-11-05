@@ -4,8 +4,9 @@
 	<passive id="3" name="Energética" gfx="bebida.png" description="Sabe a sobaco" quality="1" cache="shotspeed speed tearflag"/> 
 	<passive id="4" name="Pasta" gfx="pasta.png" description="Encharcada" quality="1" maxhearts="2" hearts="2" cache="tearflag"/>
 	<passive id="5" name="Medicamento" gfx="medicamento.png" descritpion="Contra mi naturaleza" quality="1" maxhearts="2" hearts="6" blackhearts="-2"/>
-	<passive id="6" name="Curriculum Vitae" gfx="cv.png" description="Cabe en un post-it" quality="1" cache="luck damage tearflag" soulhearts="2"/>
+	<passive id="6" name="Curriculum Vitae" gfx="cv.png" description="Cabe en un post-it" quality="1" cache="luck tearflag" soulhearts="2"/>
 	<passive id="7" name="Contrato" gfx="contrato.png" description="Ay que mieo" quality="1" blackhearts="2" coins="2"/>
+	<passive id="8" name="Treinta y tres" gfx="33.png" description="Tortura moderna" quality="3" cache="damage shotspeed range luck range speed firedelay tearflag" coins="3" keys="3" bombs="3"/>
 	<active id="30" name="Cacahuetillo" gfx="cacahuetillo.png" description="Ricos cacahuetillos, ñam" quality="1" maxcharges="5" chargetype="normal"/>
 	<trinket id="50" name="Voz de Roro" gfx="peeposhy.png" description="Más cara que espalda"/>
 	<trinket id="51" name="TENEDOL" gfx="tenedol.png" description="Detengan a la ladlona!!!"/>

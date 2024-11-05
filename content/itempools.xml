@@ -23,4 +23,8 @@
 		<!--Tenedol-->
 		<Item Name="TENEDOL" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 	</Pool>
+	<Pool name="angel">
+	<!--33-->
+	<Item Name="Treinta y tres" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+	</Pool>
 </ItemPools>

@@ -15,6 +15,7 @@ include("scripts.items.itemContrato")
 include("scripts.items.itemMedicamento")
 include("scripts.items.itemPasta")
 include("scripts.items.itemSenyorC")
+include("scripts.items.itemTreintaytres")
 
 ---SCRIPTS DE TRINKETS----
 include("scripts.trinkets.trinketTenedol")

@@ -8,13 +8,21 @@ local CafeStats = {
 
 ---FUNCIONA---
 function mod:onPickupCafe(player, cacheFlag)
+
 	if player:HasCollectible(COLLECTIBLE_CAFE) then
+
 		if cacheFlag == CacheFlag.CACHE_SPEED then
+
 			player.MoveSpeed = player.MoveSpeed + CafeStats.SPEED * player:GetCollectibleNum(COLLECTIBLE_CAFE)
+
 		elseif cacheFlag == CacheFlag.CACHE_SHOTSPEED then
+
 			player.ShotSpeed = player.ShotSpeed + CafeStats.SHOTSPEED * player:GetCollectibleNum(COLLECTIBLE_CAFE)
+
 		elseif cacheFlag == CacheFlag.CACHE_TEARFLAG then
+
 			player.TearFlags = player.TearFlags | TearFlags.TEAR_WIGGLE
+
 		end
 	end
 end

@@ -20,7 +20,7 @@ end
 
 mod:AddCallback(ModCallbacks.MC_EVALUATE_CACHE, mod.onPickupCV)
 
----NOFUNCIONA---
+---FUNCIONA---
 function mod:confussionTearEffectCV(entityTear)
 	local player = Isaac.GetPlayer(0)
 
@@ -34,5 +34,6 @@ function mod:confussionTearEffectCV(entityTear)
 end
 
 mod:AddCallback(ModCallbacks.MC_POST_FIRE_TEAR, mod.confussionTearEffectCV)
+
 
 ---POR AÑADIR: SONIDO DE WAJAJA CUANDO SE PILLE EL ITEM---
