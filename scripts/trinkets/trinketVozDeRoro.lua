@@ -40,3 +40,5 @@ mod:AddCallback(ModCallbacks.MC_GET_TRINKET, mod.GetTrinketVozderoro)
 
 
 --player:TryRemoveTrinket(TRINKET_VOZDERORO)
+
+--mc_post_pickup_shop_purchase

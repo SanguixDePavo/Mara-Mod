@@ -1,13 +1,15 @@
 <items gfxroot="gfx/items/" version="1">
 	<passive id="1" name="Café" gfx="cafe.png" description="¿Un qué? Un cafÉ" quality="1" cache="damage shotspeed speed tearflag" blackhearts="2"/>
-	<passive id="2" name="Señor C" gfx="mrc.png" description="Mi amor platónico uWu"  quality="1"/>
-	<passive id="3" name="Energética" gfx="bebida.png" description="Sabe a sobaco" quality="1" cache="shotspeed speed tearflag"/> 
-	<passive id="4" name="Pasta" gfx="pasta.png" description="Encharcada" quality="1" maxhearts="2" hearts="2" cache="tearflag"/>
-	<passive id="5" name="Medicamento" gfx="medicamento.png" descritpion="Contra mi naturaleza" quality="1" maxhearts="2" hearts="6" blackhearts="-2"/>
-	<passive id="6" name="Curriculum Vitae" gfx="cv.png" description="Cabe en un post-it" quality="1" cache="luck tearflag" soulhearts="2"/>
-	<passive id="7" name="Contrato" gfx="contrato.png" description="Ay que mieo" quality="1" blackhearts="2" coins="2"/>
-	<passive id="8" name="Treinta y tres" gfx="33.png" description="Tortura moderna" quality="3" cache="damage shotspeed range luck range speed firedelay tearflag" coins="3" keys="3" bombs="3"/>
+	<passive id="2" name="Señor C" gfx="mrc.png" description="Mi amor platónico uWu"  quality="1" cache="damage"/>
+	<passive id="3" name="Medicamento" gfx="medicamento.png" descritpion="Contra mi naturaleza" quality="1"/>
+	<passive id="4" name="Curriculum Vitae" gfx="cv.png" description="Cabe en un post-it" quality="1" cache="luck tearflag" soulhearts="2"/>
+	<passive id="5" name="Contrato" gfx="contrato.png" description="Ay que mieo" quality="1" blackhearts="2" coins="2"/>
+	<passive id="6" name="Treinta y tres" gfx="33.png" description="Tortura moderna" quality="3" cache="damage shotspeed range luck range speed firedelay tearflag" coins="3" keys="3" bombs="3"/>
+	<passive id="7" name="Papel cagao" gfx="papelcagao.png" description="Y yo sin cuchara" quality="2" blackhearts="4"/>
 	<active id="30" name="Cacahuetillo" gfx="cacahuetillo.png" description="Ricos cacahuetillos, ñam" quality="1" maxcharges="5" chargetype="normal"/>
+	<active id="31" name="Pasta" gfx="pasta.png" description="Sacados de una charca" quality="1" maxcharges="4" chargetype="normal"/>
+	<active id="32" name="Energética" gfx="bebida.png" description="Sabe a sobaco" quality="1" maxcharges="3" chargetype="normal"/> 
 	<trinket id="50" name="Voz de Roro" gfx="peeposhy.png" description="Más cara que espalda"/>
 	<trinket id="51" name="TENEDOL" gfx="tenedol.png" description="Detengan a la ladlona!!!"/>
+	<trinket id="52" name="Oh" gfx="oh.png" description="Te has pasado"/>
 </items>

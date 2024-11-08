@@ -5,26 +5,30 @@
 		<!--Cacahuetillo-->
 		<Item Name="Cacahuetillo" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Señor C-->
-		<Item Name="Señor C" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<Item Name="Señor C" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Bebida-->
-		<Item Name="Energética" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<Item Name="Energética" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Pasta-->
-		<Item Name="Pasta" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<Item Name="Pasta" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Medicamento-->
-		<Item Name="Medicamento" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<Item Name="Medicamento" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Currículum-->
-		<Item Name="Curriculum Vitae" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<Item Name="Curriculum Vitae" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Contrato-->
-		<Item Name="Contrato" Weight="1" DecreaseBy="1" RemoveON="0.1"/>
+		<Item Name="Contrato" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<!--Papel cagao-->
+		<Item Name="Papel cagao" Weight ="1" DecreaseBy="1" RemoveOn="0.1"/>
 	</Pool>
 	<Pool Name="goldenChest">
 		<!--Voz de Roro-->
 		<Item Name="Voz de Roro" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Tenedol-->
 		<Item Name="TENEDOL" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<!---Oh-->
+		<Item Name="Oh" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 	</Pool>
 	<Pool name="angel">
 	<!--33-->
-	<Item Name="Treinta y tres" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+	<Item Name="Treinta y tres" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 	</Pool>
 </ItemPools>

@@ -20,22 +20,26 @@ local COLLECTIBLE_BEBIDA = Isaac.GetItemIdByName("Energética")
 
 local COLLECTIBLE_33 = Isaac.GetItemIdByName("Treinta y tres")
 
+local COLLECTIBLE_PAPEL = Isaac.GetItemIdByName("Papel cagao")
+
 local TRINKET_VOZDERORO = Isaac.GetTrinketIdByName("Voz de Roro")
 
 local TRINKET_TENEDOL = Isaac.GetTrinketIdByName("TENEDOL")
+
+local TRINKET_OH = Isaac.GetItemIdByName("Oh")
 
 ---START---
 
 function mod:onGameStart (fromSave)
 	if not fromSave then 
 
-		--Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant. PICKUP_COLLECTIBLE, COLLECTIBLE_33, Vector (320, 220), Vector.Zero, nil)
+		Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant. PICKUP_COLLECTIBLE, COLLECTIBLE_BEBIDA, Vector (320, 220), Vector.Zero, nil)
 
-		Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant. PICKUP_TRINKET, TRINKET_VOZDERORO, Vector (320, 200), Vector.Zero, nil)
+		--Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant. PICKUP_TRINKET, TRINKET_OH, Vector (320, 200), Vector.Zero, nil)
 		
 		--Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant. PICKUP_TRINKET, TRINKET_TENEDOL, Vector (320, 100), Vector.Zero, nil)
 
-		--Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant. PICKUP_COLLECTIBLE, COLLECTIBLE_SENYORC, Vector (370, 100), Vector.Zero, nil)
+		Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant. PICKUP_COLLECTIBLE, COLLECTIBLE_MEDICAMENTO, Vector (370, 100), Vector.Zero, nil)
 	end
 end
 
