@@ -18,6 +18,12 @@ include("scripts.items.itemSenyorC")
 include("scripts.items.itemTreintaytres")
 include("scripts.items.itemPapel")
 
+include("scripts.items.itemJuramentada")
+include("scripts.items.itemPalabrasRadiantes")
+
+--SCRIPTS TRANSFORMACIONES--
+include("scripts.transformation.transformationKnightRadiant")
+
 ---SCRIPTS DE TRINKETS----
 include("scripts.trinkets.trinketTenedol")
 include("scripts.trinkets.trinketVozDeRoro")
